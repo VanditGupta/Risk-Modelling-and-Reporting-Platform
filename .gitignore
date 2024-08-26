@@ -1,0 +1,65 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Data files
+*.csv
+*.json
+*.geojson
+*.gpkg
+Datasets/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite3
+*.db
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+.hypothesis/
+.cache
+
+# Virtualenv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS files
+.DS_Store
+
+# Dash server state
+*.pkl
+__cache__/
+
+# Docker
+Dockerfile
+docker-compose.yml
+*.tar
